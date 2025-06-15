@@ -1,0 +1,254 @@
+* {
+    margin: auto;
+    scroll-behavior: smooth;
+    max-width: 900px;
+    cursor: pointer;
+    
+}
+header {
+    margin-top: 3%;
+      
+      z-index: 100;
+      position: sticky;
+      top: 0;
+      background-color: white;
+}
+
+.top-bar menu{
+    display: flex;
+    list-style-type: disc;
+    padding: 12px;
+    list-style: none;
+}
+menu a {
+    text-decoration: none;
+    color: black;
+}
+menu a:hover {
+background-color: #ddd;
+}
+menu svg:hover{
+    background-color: #ddd;
+}
+.mid{
+    position: relative;
+}
+
+.mid img{
+    width: 97%;
+    height: 360px;
+    object-fit: cover;
+}
+.mainmid{
+    position: absolute;
+    left: 33%;
+    top: 15%;
+}
+.mainmid h2,p {
+    
+    font-weight: 500;
+}
+.he {
+    margin-left: 21%;
+}
+.mainmid button{
+    margin-top: 15px;
+    width: 40%;
+    height: 38px;
+    background-color: white;
+    border: #ddd;
+    cursor: pointer;
+}
+.mainmid button:hover{
+    background-color: #ddd;
+}
+.nam h2 {
+    margin-top: 1.5%;
+    font-weight: 500;
+}
+.item {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+}
+.flower {
+    background-color: white;
+   
+    
+}
+.flower img{
+    border-radius: 14px;
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    object-fit: cover;
+}
+.flower p {
+    margin-top: 1px;
+    text-align: center;
+
+}
+ .item .flower img:hover{
+    transform: translateY(-10);
+    background-color: #ddd;
+}
+.flower button{
+    margin-top: 1%;
+    display: flex;
+    align-content: center;
+    height: 26px;
+    width: 84%;
+    background-color: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+ button p{
+    
+    text-align: center;
+}
+.flower button:hover{
+    color: #ddd;
+}
+
+.name-2 h2 {
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+/* 2nd item */
+.item-2 {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 10px;
+}
+.flower-2 {
+    background-color: white;
+   
+    
+}
+.flower-2 img{
+    border-radius: 14px;
+    width: 90%;
+    height: 200px;
+    padding: 20px;
+    object-fit: cover;
+}
+.flower-2 p {
+    margin-top: 1px;
+    text-align: center;
+
+}
+.flower-2 button{
+    margin-top: 1%;
+    display: flex;
+    align-content: center;
+    height: 26px;
+    width: 84%;
+    background-color: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+
+}
+.flower-2 button:hover{
+    color: #ddd;
+}
+ button p{
+    
+    text-align: center;
+}
+ .item-2 .flower-2 img:hover{
+    transform: translateY(-10);
+    background-color: #ddd;
+}
+/*  */
+
+.h-3 h2 {
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.foot {
+    margin-top: 3%;
+  
+}
+.main-foot {
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 1px;
+   list-style: none;
+   
+
+}
+.main-foot a{
+    margin-top: 2%;
+    text-decoration: none;
+    color: black;
+}
+.main-foot a:hover{
+background-color: #ddd;
+}
+@media (max-width:765px) {
+    menu {
+        font-size: 10px;
+    }
+    .item {
+        grid-template-columns: repeat(3,1fr);
+    }
+   .item-2{
+    grid-template-columns: repeat(3,1fr);
+   }
+      .item img {
+        grid-template-columns: repeat(3,1fr);
+    }
+   .item-2 img{
+    grid-template-columns: repeat(3,1fr);
+   }
+   .flower button {
+      height: 35px;
+    width: 84%;
+   }
+   .flower-2 button {
+     height: 35px;
+    width: 84%;
+   }
+   .foot {
+    font-size: 12px;
+   }
+   .every {
+    padding:0 10px ;
+   }
+.mainmid h2,p {
+    
+    font-weight: 100;
+}
+
+
+
+}
+
+@media (max-width:500px) {
+    header{
+        font-size: 20px;
+    }
+    .item {
+        grid-template-columns: repeat(2,1fr);
+    }
+   .item-2{
+    grid-template-columns: repeat(2,1fr);
+   }
+    .flower button {
+      height: 35px;
+    width: 84%;
+   }
+   .flower-2 button {
+     height: 35px;
+    width: 84%;
+   }
+}
